@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:granite="http://www.adobe.com/jcr/granite/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:mixinTypes="[granite:PublicArea]"
+    jcr:primaryType="sling:OrderedFolder"
+    sling:resourceType="granite/operations/components/healthreports"
+    name="Health Reports">
+    <granite_resourceSearchPathError/>
+    <granite_System/>
+    <granite_ReplicationQueue/>
+    <granite_LogError/>
+    <granite_InactiveBundles/>
+    <granite_RequestStatus/>
+    <granite_QueriesStatus/>
+    <granite_Security/>
+    <granite_QueryLimits/>
+    <granite_Jobs/>
+    <granite_SynchronizedClocks/>
+    <granite_CodeCache/>
+    <granite_DiskSpace/>
+    <granite_ObservationQueue/>
+    <granite_AsyncIndexes/>
+    <granite_Scheduler/>
+    <granite_LargeIndexes/>
+    <granite_SlingContentCheck/>
+</jcr:root>

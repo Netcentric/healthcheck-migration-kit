@@ -1,0 +1,14 @@
+.project
+.settings/
+.classpath
+.vscode/
+.idea
+*.iml
+.vlt
+target/
+bin/
+.DS_Store
+**/jcr_root/META-INF
+**/resources/META-INF
+**/WEB-INF
+tools/response-code-watcher/error.log
