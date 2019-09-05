@@ -5,7 +5,7 @@
     <parent>
         <groupId>biz.netcentric.aem.ops.healthchecks.migration</groupId>
         <artifactId>healthcheck-migration-kit</artifactId>
-        <version>1.0.0-SNAPSHOT</version>
+        <version>1.0.0</version>
     </parent>
 
     <artifactId>hc-migration-legacy-systemready-endpoints-package</artifactId>
