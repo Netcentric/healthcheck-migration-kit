@@ -24,6 +24,11 @@
                     <group>Netcentric</group>
                     <embeddeds>
                         <embedded>
+                            <groupId>org.apache.servicemix.bundles</groupId>
+                            <artifactId>org.apache.servicemix.bundles.quartz</artifactId>
+                            <target>/apps/netcentric/healthcheck/install/5</target>
+                        </embedded>
+                        <embedded>
                             <groupId>org.apache.felix</groupId>
                             <target>/apps/healthcheckmigrationkit/felixhealthchecks/install/5</target>
                         </embedded>
@@ -47,6 +52,12 @@
 
     <dependencies>
 
+        <!-- (optional) dependency of Felix HC -->
+        <dependency>
+            <groupId>org.apache.servicemix.bundles</groupId>
+            <artifactId>org.apache.servicemix.bundles.quartz</artifactId>
+            <version>2.3.2_1</version>
+        </dependency>
         <!-- Felix HC -->
         <dependency>
             <groupId>org.apache.felix</groupId>
